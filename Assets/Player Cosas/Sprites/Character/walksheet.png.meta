@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7a5401dce3e8a5f4d98f0414a595a3f0
+guid: e4a501bca78a0554fadba16600d13996
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -46,8 +46,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -93,16 +93,55 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spritesheet_0
+      name: walksheet_0
       rect:
         serializedVersion: 2
-        x: 9
+        x: 7
         y: 1
-        width: 14
+        width: 15
         height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -111,40 +150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c94aa2321b6b1ae42bec73206bb2fc5f
-      internalID: -709638343
+      spriteID: 06f7453c6048e00489ff9fcef301d62f
+      internalID: -1797281919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_1
+      name: walksheet_1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 2
-        width: 14
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 693f1de994f88f344b81cdd4351b2bbb
-      internalID: 153652096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 73
+        x: 40
         y: 1
-        width: 14
+        width: 15
         height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -153,40 +171,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c13bd180a60ad140b240dae16e8919a
-      internalID: 89171461
+      spriteID: 322c3fa82ebee81438f06cd0ffa93dfd
+      internalID: -1919873531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_3
+      name: walksheet_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 15
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1679ccdca2ca0bc41b3b8b24c28bbc2b
+      internalID: -2096610418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walksheet_3
       rect:
         serializedVersion: 2
         x: 105
-        y: 2
-        width: 14
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7004f04ee10e2694b8b57334ebd27dac
-      internalID: 1517738556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 137
         y: 1
-        width: 14
+        width: 15
         height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -195,8 +213,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8f022e1cdc6bfe45886b1f7f471a13c
-      internalID: -552547288
+      spriteID: 488f0a8309451434582ed44e5281614c
+      internalID: 1471178424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walksheet_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1
+        width: 15
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e522ad6a5ac6a43a9203ac65027838
+      internalID: -1108063668
       vertices: []
       indices: 
       edges: []
@@ -212,11 +251,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spritesheet_0: -709638343
-      spritesheet_1: 153652096
-      spritesheet_2: 89171461
-      spritesheet_3: 1517738556
-      spritesheet_4: -552547288
+      walksheet_0: -1797281919
+      walksheet_1: -1919873531
+      walksheet_2: -2096610418
+      walksheet_3: 1471178424
+      walksheet_4: -1108063668
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

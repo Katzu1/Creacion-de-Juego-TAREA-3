@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9ec6afc2ea4ca6242ae3e863004968a6
+guid: f1bf931c6e1dfaa4bb57e9e70d2d57ea
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,16 +93,55 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: walkleft_0
+      name: walkup_0
       rect:
         serializedVersion: 2
-        x: 9
+        x: 8
         y: 1
-        width: 14
+        width: 15
         height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -111,40 +150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ae488a3f28c0254b9e8fc80fb7c9ae6
-      internalID: -2111607701
+      spriteID: 7dea19cbc5c63e54a851527ecb6f2cef
+      internalID: 2050351857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkleft_1
+      name: walkup_1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 2
-        width: 14
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05c60d3a3cfe76a46ae81ad8b083e944
-      internalID: -1605626666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walkleft_2
-      rect:
-        serializedVersion: 2
-        x: 73
+        x: 39
         y: 1
-        width: 14
+        width: 15
         height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -153,19 +171,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 528fa133bac91194d897ebe3aaf01929
-      internalID: 38858665
+      spriteID: 97cd9d55282f22344881c8d7a14e4648
+      internalID: 629880937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkleft_3
+      name: walkup_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 15
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbbba5502b055143a7bfb2c9bf54294
+      internalID: 179679403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walkup_3
       rect:
         serializedVersion: 2
         x: 105
         y: 1
-        width: 14
+        width: 15
         height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -174,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b825f4440dcc49b4f94ee8b8bbe8604a
-      internalID: 790723303
+      spriteID: ecef96eb6ba003840b373df8c3b4a02d
+      internalID: 1211165580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkleft_4
+      name: walkup_4
       rect:
         serializedVersion: 2
-        x: 137
-        y: 2
-        width: 14
-        height: 28
+        x: 135
+        y: 1
+        width: 15
+        height: 29
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,8 +234,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7fc85af93e4ef94a8b65233e6a9e2e9
-      internalID: -674776341
+      spriteID: afb44aa474e41f14ba23351e2bc04cdf
+      internalID: -789032928
       vertices: []
       indices: 
       edges: []
@@ -212,11 +251,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      walkleft_0: -2111607701
-      walkleft_1: -1605626666
-      walkleft_2: 38858665
-      walkleft_3: 790723303
-      walkleft_4: -674776341
+      walkup_0: 2050351857
+      walkup_1: 629880937
+      walkup_2: 179679403
+      walkup_3: 1211165580
+      walkup_4: -789032928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: b138a0e4ef6e3bf4aab208ac0bf87bc0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: caves sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 319
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf092a7b1c8bee45a443498658c9bc7
+      internalID: 2067094233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caves sprite_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 580
+        width: 201
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e330aaf9c5a2a534aafcb371c47259c8
+      internalID: -598538252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caves sprite_2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 580
+        width: 229
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b9d7281fe4bf240a3424e7f896e6ff
+      internalID: -364887446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caves sprite_3
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 580
+        width: 131
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed594d9b1e6ff049af8cac829ac0297
+      internalID: 2067583216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caves sprite_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 51
+        width: 130
+        height: 488
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 120, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70c68e78b9628f40be863ccbfc7872c
+      internalID: -826965275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caves sprite_5
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 470
+        width: 10
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ae5ec7f5068af4d91f0c23df4b3498
+      internalID: -2134785628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      caves sprite_0: 2067094233
+      caves sprite_1: -598538252
+      caves sprite_10: -1799806951
+      caves sprite_100: 44925767
+      caves sprite_101: 1733246336
+      caves sprite_102: 1120602955
+      caves sprite_103: -167150753
+      caves sprite_104: 943419562
+      caves sprite_105: 1706162808
+      caves sprite_106: 1995397685
+      caves sprite_107: 581627194
+      caves sprite_108: 1703334309
+      caves sprite_109: -294232424
+      caves sprite_11: -82755718
+      caves sprite_110: 955229185
+      caves sprite_111: -1924797775
+      caves sprite_112: 775694195
+      caves sprite_113: 519404440
+      caves sprite_114: -14953193
+      caves sprite_115: 1910610054
+      caves sprite_116: 1636983989
+      caves sprite_117: 1386293404
+      caves sprite_118: -119857120
+      caves sprite_119: -143613068
+      caves sprite_12: -2132974106
+      caves sprite_120: -52706429
+      caves sprite_121: -1304030521
+      caves sprite_122: -1570687544
+      caves sprite_123: -571440805
+      caves sprite_124: -1496834312
+      caves sprite_125: -1164273170
+      caves sprite_126: 1467008232
+      caves sprite_127: 1154251687
+      caves sprite_128: 388422094
+      caves sprite_129: 1210466450
+      caves sprite_13: -599949379
+      caves sprite_130: 375412494
+      caves sprite_131: -523319663
+      caves sprite_132: -1729819248
+      caves sprite_133: 929816864
+      caves sprite_134: 1010950917
+      caves sprite_135: -1188171306
+      caves sprite_136: -203082986
+      caves sprite_137: 1762683742
+      caves sprite_138: 1913050296
+      caves sprite_139: -962809707
+      caves sprite_14: -82515117
+      caves sprite_140: -101644741
+      caves sprite_141: 37854607
+      caves sprite_142: 245827379
+      caves sprite_15: 1644186010
+      caves sprite_16: -2141015590
+      caves sprite_17: -885520101
+      caves sprite_18: -1649503229
+      caves sprite_19: 1398711214
+      caves sprite_2: -364887446
+      caves sprite_20: -2067582430
+      caves sprite_21: 1873057956
+      caves sprite_22: 1699054525
+      caves sprite_23: -1661160056
+      caves sprite_24: 473364140
+      caves sprite_25: 17559520
+      caves sprite_26: -313718846
+      caves sprite_27: -749835044
+      caves sprite_28: -1703971829
+      caves sprite_29: -1176015893
+      caves sprite_3: 2067583216
+      caves sprite_30: -1303916054
+      caves sprite_31: 1331747135
+      caves sprite_32: -580960076
+      caves sprite_33: -531841299
+      caves sprite_34: 1035501553
+      caves sprite_35: -1515548535
+      caves sprite_36: 535460786
+      caves sprite_37: -519539140
+      caves sprite_38: -234067247
+      caves sprite_39: -1749527231
+      caves sprite_4: -826965275
+      caves sprite_40: 1127191309
+      caves sprite_41: 520798586
+      caves sprite_42: 307736794
+      caves sprite_43: -860767031
+      caves sprite_44: -691414944
+      caves sprite_45: 1269488034
+      caves sprite_46: 563412262
+      caves sprite_47: 1656019996
+      caves sprite_48: -1843237127
+      caves sprite_49: -27437775
+      caves sprite_5: -2134785628
+      caves sprite_50: 644328387
+      caves sprite_51: 696276325
+      caves sprite_52: -2096129295
+      caves sprite_53: -155858696
+      caves sprite_54: -812886650
+      caves sprite_55: 994492497
+      caves sprite_56: -1177661571
+      caves sprite_57: 1368992386
+      caves sprite_58: -827535719
+      caves sprite_59: -323330329
+      caves sprite_6: 22954434
+      caves sprite_60: -1890857638
+      caves sprite_61: -1257061551
+      caves sprite_62: -1462888987
+      caves sprite_63: 638072891
+      caves sprite_64: 1809373473
+      caves sprite_65: -1045794489
+      caves sprite_66: -890615484
+      caves sprite_67: 1193614515
+      caves sprite_68: 93290078
+      caves sprite_69: 2074738582
+      caves sprite_7: 824797792
+      caves sprite_70: 663174811
+      caves sprite_71: 388378771
+      caves sprite_72: -765031644
+      caves sprite_73: -1825343909
+      caves sprite_74: -343582031
+      caves sprite_75: 1902688590
+      caves sprite_76: 624239282
+      caves sprite_77: -159770974
+      caves sprite_78: 513649832
+      caves sprite_79: 815726440
+      caves sprite_8: -229401243
+      caves sprite_80: 549009555
+      caves sprite_81: 387673765
+      caves sprite_82: -1898683587
+      caves sprite_83: 1129676595
+      caves sprite_84: -863065428
+      caves sprite_85: -1139729107
+      caves sprite_86: 1804617877
+      caves sprite_87: 1173053949
+      caves sprite_88: 420682966
+      caves sprite_89: 199540059
+      caves sprite_9: 136460389
+      caves sprite_90: -1437148908
+      caves sprite_91: -766839540
+      caves sprite_92: -1363297478
+      caves sprite_93: -561019236
+      caves sprite_94: 1630997805
+      caves sprite_95: -936492654
+      caves sprite_96: 501360005
+      caves sprite_97: -1520056246
+      caves sprite_98: 890027562
+      caves sprite_99: 328616873
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

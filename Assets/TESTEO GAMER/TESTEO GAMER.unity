@@ -589,7 +589,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9602e81f53ef1344e896b9e52350d416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentActiveWeapon: {fileID: 0}
 --- !u!1 &324681756
 GameObject:
   m_ObjectHideFlags: 0
@@ -1206,7 +1205,7 @@ Transform:
   m_GameObject: {fileID: 713068316}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -121.82681, y: 77.38788, z: -2.5553842}
+  m_LocalPosition: {x: -121.750984, y: 77.38771, z: -2.5553842}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1742,6 +1741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1222759861}
   - component: {fileID: 1222759862}
+  - component: {fileID: 1222759863}
   m_Layer: 0
   m_Name: Active Weapons
   m_TagString: Untagged
@@ -1777,7 +1777,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9602e81f53ef1344e896b9e52350d416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentActiveWeapon: {fileID: 0}
+--- !u!114 &1222759863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222759860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ed14763b292be40b0e41ce13d1ffe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1329598765
 GameObject:
   m_ObjectHideFlags: 0
@@ -2251,6 +2262,7 @@ MonoBehaviour:
   moveSpeed: 15
   dashSpeed: 4
   myTrailRenderer: {fileID: 708841928}
+  weaponCollider: {fileID: 0}
 --- !u!70 &1547382425
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2864,7 +2876,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1997015641}
   m_Layer: 0
-  m_Name: SlashSPW
+  m_Name: SlashSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -3149,6 +3161,7 @@ MonoBehaviour:
   moveSpeed: 15
   dashSpeed: 4
   myTrailRenderer: {fileID: 708841928}
+  weaponCollider: {fileID: 324681757}
 --- !u!95 &2103654912
 Animator:
   serializedVersion: 5
@@ -3235,9 +3248,9 @@ Transform:
   m_LocalScale: {x: 2.7143, y: 2.7143, z: 2.7143}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 708841929}
-  - {fileID: 324681757}
   - {fileID: 1222759861}
+  - {fileID: 324681757}
+  - {fileID: 708841929}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &35821940210904113
